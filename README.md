@@ -5,6 +5,7 @@
 
 ##key pair gen
 > openssl genrsa -out priv-key.pem 2048
+
 > openssl rsa -in priv-key.pem -outform PEM -pubout -out pub-key.pem
 
 ##run the app:
