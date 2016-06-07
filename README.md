@@ -12,4 +12,4 @@
 > SET DEBUG=node-jwt-demo:* & npm start
 
 ##testing - powershell
-> $token = node test.js; Invoke-WebRequest -Headers @{"Authorization" = "Bearer $token"} -Method POST -Body "{'workspaces':{'title':'CMC Regulatory Support','creator_role':'maven'}}" http://localhost:3000/protected/one
+> $token = node test.js; Invoke-WebRequest -Headers @{"Authorization" = "Bearer $token"} -Method POST -Body "{'workspaces':{'title':'some title','message':'hello'}}" http://localhost:3000/protected/one
